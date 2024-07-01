@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-header {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: rgb(94, 174, 255);
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Center content horizontally */
+}
+
+.image-row {
+    width: 35cm;
+    height: 10cm;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Add space between images */
+}
+
+.image-row img {
+    max-width: 30%; /* Ensure the images fit in a row */
+    height: auto;
+    display: block;
+}
+
+.image-content {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    background-color: #a991ff;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    text-align: left; /* Align text content to the left */
+}
+
+.image-content h2 {
+    margin-top: 0;
+}
+
+.image-content p {
+    margin: 0;
+}
